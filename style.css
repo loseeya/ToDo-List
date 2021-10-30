@@ -6,7 +6,7 @@
 body {
   font-family: 'Pretendard-Regular';
   background: url(./img/구름.JPG) no-repeat center / cover;
-  height: 100vh; 
+  height: 100%; 
 }
 
 /* 폰트 */
@@ -163,10 +163,6 @@ footer p {
 }
 
 @media (max-width: 768px) {
-  body {
-    height: 100%;
-  }
-  
   .wrap {
     margin: 30px auto;
   }
